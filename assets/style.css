@@ -6,6 +6,12 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+  
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -139,7 +145,7 @@ nav a {
 	font-size: 24px;
 }
 
-.quote {
+.quote, footer {
 	font-family: 'Spectral';
 	font-style: italic;
 	width: 70%;
@@ -150,7 +156,7 @@ nav a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 3.1vh;
+	font-size: 2em;
 
 }
 .quote__author {
@@ -246,6 +252,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer div{
+	display : flex;
+	flex-direction: column;
+}
+footer .copyright{
+	align-items: center;
 }
 
 @media all and (max-width: 1180px) {
